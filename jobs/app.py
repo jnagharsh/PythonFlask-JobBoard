@@ -76,5 +76,6 @@ def review(employer_id):
 
     return render_template('review.html', employer_id=employer_id)
 
+
 if __name__ == '__main__':
     app.run()
